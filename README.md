@@ -21,7 +21,7 @@
 
 对于2的方式，可以更进一步，把重复的劳动工具化，于是我写了个lldb 命令`symbolic`来做这个事情。
 
-使用方式是，安装![chisel](https://github.com/facebook/chisel), 并将该脚本放在`/usr/local/opt/chisel/libexec/commands`目录下。从此lldb命令里多了`symbolic`, 使用时将要符号化的地址传入便可以，如图：
+使用方式是，安装[chisel](https://github.com/facebook/chisel), 并将该脚本放在`/usr/local/opt/chisel/libexec/commands`目录下。从此lldb命令里多了`symbolic`, 使用时将要符号化的地址传入便可以，如图：
 
 ![Lark20181215-144457](./screen-snapshots/Lark20181215-144457.png)
 
