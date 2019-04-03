@@ -18,7 +18,7 @@ class SymbolicAddresses(fb.FBCommand):
     # values and arguments. LLDB can't always find them on its own.
     interpreter = lldb.debugger.GetCommandInterpreter()
     line = -1
-    for arg in arguments:
+    for arg in arguments[1:]:
       line = line + 1
       object = lldb.SBCommandReturnObject()
       arg = arg.strip()
